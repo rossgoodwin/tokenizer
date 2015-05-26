@@ -14,35 +14,32 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+# You can contact Ross Goodwin at ross.goodwin@gmail.com or address
+# physical correspondence to:
+
+# Ross Goodwin c/o ITP
+# 721 Broadway
+# 4th Floor
+# New York, NY 10003
+
 
 import string
 import re
 
 
 # USAGE:
-# 
 # from tokenizer import Tokenize
 # tokenized = Tokenize(string)
-# 
-# 
+
 # METHODS: 
-# 
 # tokenized.get_token_list()        Returns list of word tokens
-# 
 # tokenized.untokenize()            Returns string of joined tokens with 
-#                                   punctuation and spaces reinserted
-# 
-# 
+
 # ATTRIBUTES:
-# 
 # tokenized.word_tokens       dictionaries  | Keys are token indices
 # tokenized.punc_tokens                     | Values are tokens
 # tokenized.space_tokens
-#
-# tokenized.whitespace        sets | Python string lib whitespace characters
-# tokenized.alphanum               | Python string lib ascii letters + digits
-# 
-# tokenized.text              string | Input string
+
 
 
 class Tokenize(object):
