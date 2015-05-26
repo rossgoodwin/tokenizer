@@ -34,6 +34,7 @@ import re
 # METHODS: 
 # tokenized.get_token_list()        Returns list of word tokens
 # tokenized.untokenize()            Returns string of joined tokens with 
+#                                   punctuation and whitespace reinserted
 
 # ATTRIBUTES:
 # tokenized.word_tokens       dictionaries  | Keys are token indices
